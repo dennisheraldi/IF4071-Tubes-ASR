@@ -1,0 +1,427 @@
+{
+    "Male 8-114.wav": {
+        "wav": "{data_root}/Audio/Male 8/114.wav",
+        "length": 4.415986394557823,
+        "words": "KITA AKAN NAIK PESAWAT DARI GATE SATU."
+    },
+    "Male 8-115.wav": {
+        "wav": "{data_root}/Audio/Male 8/115.wav",
+        "length": 4.032018140589569,
+        "words": "HANDPHONE-KU NGE-HANG AKU COBA RESTART DULU YA."
+    },
+    "Male 8-116.wav": {
+        "wav": "{data_root}/Audio/Male 8/116.wav",
+        "length": 4.75734693877551,
+        "words": "SORRY AKU TADI NYASAR."
+    },
+    "Male 8-117.wav": {
+        "wav": "{data_root}/Audio/Male 8/117.wav",
+        "length": 2.8373469387755104,
+        "words": "MINGGU DEPAN KITA PARAGLIDING YUK"
+    },
+    "Male 8-118.wav": {
+        "wav": "{data_root}/Audio/Male 8/118.wav",
+        "length": 3.328004535147392,
+        "words": "PUNTEUN PASSWORD WIFI-NYA APA YA"
+    },
+    "Male 8-119.wav": {
+        "wav": "{data_root}/Audio/Male 8/119.wav",
+        "length": 3.2853514739229026,
+        "words": "AKU SUDAH BOOKING HOTEL UNTUK SATU MALAM"
+    },
+    "Male 8-120.wav": {
+        "wav": "{data_root}/Audio/Male 8/120.wav",
+        "length": 3.6053514739229024,
+        "words": "AKU SUDAH BOOKING HOTEL UNTUK SATU MALAM"
+    },
+    "Male 8-71.wav": {
+        "wav": "{data_root}/Audio/Male 8/71.wav",
+        "length": 5.290680272108844,
+        "words": "KAMI SERING BERKUMPUL DI KAFE FAVORIT KAMI UNTUK NGOBROL DAN MENIKMATI SECANGKIR KOPI."
+    },
+    "Male 8-72.wav": {
+        "wav": "{data_root}/Audio/Male 8/72.wav",
+        "length": 7.338684807256236,
+        "words": "PERJALANAN KE PARIS SELALU MENJADI IMPIAN SAYA DAN AKHIRNYA SAYA BISA MENGUNJUNGINYA TAHUN LALU."
+    },
+    "Male 8-73.wav": {
+        "wav": "{data_root}/Audio/Male 8/73.wav",
+        "length": 6.335986394557823,
+        "words": "KAMI MERENCANAKAN PERJALANAN HIKING KE PEGUNUNGAN BESOK DAN SAYA SANGAT MENANTIKAN PETUALANGAN ITU."
+    },
+    "Male 8-74.wav": {
+        "wav": "{data_root}/Audio/Male 8/74.wav",
+        "length": 7.786666666666667,
+        "words": "MUSEUM SENI ADALAH TEMPAT FAVORIT SAYA UNTUK HANGOUT DAN MENDAPATKAN INSPIRASI."
+    },
+    "Male 8-75.wav": {
+        "wav": "{data_root}/Audio/Male 8/75.wav",
+        "length": 4.672018140589569,
+        "words": "PEMANDANGAN INDAH DI DESA TERSEBUT MEMBUAT PERJALANAN AKHIR PEKAN KAMI SANGAT BERKESAN."
+    },
+    "Male 8-76.wav": {
+        "wav": "{data_root}/Audio/Male 8/76.wav",
+        "length": 4.864013605442177,
+        "words": "KAMI BARU SAJA KEMBALI DARI PERJALANAN KE JEPANG DAN KAMI MENGEKSPLORASI BERBAGAI TEMPAT MENARIK DI SANA."
+    },
+    "Male 8-77.wav": {
+        "wav": "{data_root}/Audio/Male 8/77.wav",
+        "length": 6.67734693877551,
+        "words": "MALAM TADI SAYA DAN TEMAN-TEMAN SAYA MENIKMATI KONSER MUSIK LIVE DI PUSAT KOTA."
+    },
+    "Male 8-78.wav": {
+        "wav": "{data_root}/Audio/Male 8/78.wav",
+        "length": 5.4826530612244895,
+        "words": "KAMI MERENCANAKAN PERJALANAN ROAD TRIP MUSIM PANAS INI DAN KAMI BERSEMANGAT UNTUK MENJELAJAHI BERBAGAI KOTA DI SEPANJANG PERJALANAN."
+    },
+    "Male 8-79.wav": {
+        "wav": "{data_root}/Audio/Male 8/79.wav",
+        "length": 10.24,
+        "words": "SAYA SERING BERKUMPUL DENGAN KELUARGA BESAR DI RUMAH NENEK DI PEDESAAN UNTUK BERLIBUR."
+    },
+    "Male 8-80.wav": {
+        "wav": "{data_root}/Audio/Male 8/80.wav",
+        "length": 5.909319727891156,
+        "words": "RECOMMENDED BANGET UNTUK LIBURAN KELUARGA"
+    },
+    "Male 8-81.wav": {
+        "wav": "{data_root}/Audio/Male 8/81.wav",
+        "length": 2.858684807256236,
+        "words": "SUNGGUH PENGALAMAN HIKING YANG UNFORGETTABLE"
+    },
+    "Male 8-82.wav": {
+        "wav": "{data_root}/Audio/Male 8/82.wav",
+        "length": 3.1359863945578232,
+        "words": "LIBURAN KALI INI BENAR BENAR AMAZING SERU BANGET TRAVELING DENGAN TEMAN TEMAN"
+    },
+    "Male 8-83.wav": {
+        "wav": "{data_root}/Audio/Male 8/83.wav",
+        "length": 4.735986394557823,
+        "words": "SANGAT MEMUASKAN BERKELILING DI KOTA INI ORANG ORANGNYA HUMBLE DAN FRIENDLY BANGET."
+    },
+    "Male 8-84.wav": {
+        "wav": "{data_root}/Audio/Male 8/84.wav",
+        "length": 4.885351473922903,
+        "words": "JALAN JALAN PAGI DI PANTAI INI SO REFRESHING"
+    },
+    "Male 8-85.wav": {
+        "wav": "{data_root}/Audio/Male 8/85.wav",
+        "length": 3.2,
+        "words": "LIBURAN KE RUMAH NENEK TAHUN INI BENAR BENAR MEMORABLE"
+    },
+    "Male 8-86.wav": {
+        "wav": "{data_root}/Audio/Male 8/86.wav",
+        "length": 4.309319727891157,
+        "words": "TODAY SAYA MENCOBA SURFING UNTUK PERTAMA KALI SERU BANGET"
+    },
+    "Male 8-87.wav": {
+        "wav": "{data_root}/Audio/Male 8/87.wav",
+        "length": 4.458684807256236,
+        "words": "PENGALAMAN YANG BAD BANGET LIBURAN KALI INI BENER BENER FAIL"
+    },
+    "Male 8-88.wav": {
+        "wav": "{data_root}/Audio/Male 8/88.wav",
+        "length": 3.9466666666666668,
+        "words": "ASIK BANGET KETEMU MY COUSINS SAMBIL MENIKMATI INDAHNYA KOTA"
+    },
+    "Male 8-89.wav": {
+        "wav": "{data_root}/Audio/Male 8/89.wav",
+        "length": 5.2693197278911565,
+        "words": "CAFE DI PINGGIR JALAN ITU BENER BENER DISAPPOINTING GAK RECOMMENDED BANGET"
+    },
+    "Male 8-90.wav": {
+        "wav": "{data_root}/Audio/Male 8/90.wav",
+        "length": 5.653333333333333,
+        "words": "NANTI MALAM KITA BISA KE ROOFTOP BAR YANG ADA DI PUSAT KOTA KATANYA VIEW-NYA SPEKTAKULER"
+    },
+    "Male 8-91.wav": {
+        "wav": "{data_root}/Audio/Male 8/91.wav",
+        "length": 6.655986394557823,
+        "words": "KITA BISA COBA ACTIVITIES WATER SPORTS DI PANTAI SINI BESOK KAYAKNYA ASYIK DEH"
+    },
+    "Male 8-92.wav": {
+        "wav": "{data_root}/Audio/Male 8/92.wav",
+        "length": 6.314671201814059,
+        "words": "KEMARIN KAMI KE PASAR LOKAL DAN BELI FRESH FRUITS UNTUK MASAK DI VILLA"
+    },
+    "Male 8-93.wav": {
+        "wav": "{data_root}/Audio/Male 8/93.wav",
+        "length": 6.378684807256236,
+        "words": "LIBURAN INI KITA HARUS TAKE TIME UNTUK MENGUNJUNGI THE FAMOUS TAMAN SAFARI DI SINI."
+    },
+    "Male 8-94.wav": {
+        "wav": "{data_root}/Audio/Male 8/94.wav",
+        "length": 5.610680272108843,
+        "words": "LET'S PLAN OUR NEXT TRIP KE KOTA SEBELAH"
+    },
+    "Male 8-95.wav": {
+        "wav": "{data_root}/Audio/Male 8/95.wav",
+        "length": 3.328004535147392,
+        "words": "JANGAN LUPA MENCOBA LOCAL DELICACIES YANG TERKENAL SAAT KITA TRAVEL KE SANA"
+    },
+    "Male 8-96.wav": {
+        "wav": "{data_root}/Audio/Male 8/96.wav",
+        "length": 5.205351473922902,
+        "words": "AYO PERGI KE CITY CENTER UNTUK SHOPPING SPREE"
+    },
+    "Male 8-97.wav": {
+        "wav": "{data_root}/Audio/Male 8/97.wav",
+        "length": 3.2,
+        "words": "LET'S GO KE BEACH RESORT INI GUYS"
+    },
+    "Male 8-98.wav": {
+        "wav": "{data_root}/Audio/Male 8/98.wav",
+        "length": 2.6453514739229025,
+        "words": "AYO KE HISTORICAL LANDMARKS DI KOTA INI."
+    },
+    "Male 8-99.wav": {
+        "wav": "{data_root}/Audio/Male 8/99.wav",
+        "length": 3.2,
+        "words": "JANGAN LUPA MENCOBA BURGER SAAT TRAVEL KE SANA."
+    },
+    "Male 9-100.wav": {
+        "wav": "{data_root}/Audio/Male 9/100.wav",
+        "length": 4.970666666666666,
+        "words": "JANGAN LUPA MENCOBA BURGER SAAT TRAVEL KE SANA."
+    },
+    "Male 9-101.wav": {
+        "wav": "{data_root}/Audio/Male 9/101.wav",
+        "length": 6.1226666666666665,
+        "words": "MARI KITA PLAN PERJALANAN KE DESTINASI BERIKUTNYA PASTI BAKAL SERU BANGET"
+    },
+    "Male 9-102.wav": {
+        "wav": "{data_root}/Audio/Male 9/102.wav",
+        "length": 5.461333333333333,
+        "words": "SAAT BERADA DI TAMAN SAFARI AKU MELIHAT BANYAK BINATANG EKSOTIS."
+    },
+    "Male 9-103.wav": {
+        "wav": "{data_root}/Audio/Male 9/103.wav",
+        "length": 5.930666666666666,
+        "words": "COBA DEH CARI DI GOOGLE MAPS TEMPATNYA DEKAT DENGAN CITY CENTER."
+    },
+    "Male 9-104.wav": {
+        "wav": "{data_root}/Audio/Male 9/104.wav",
+        "length": 4.949333333333334,
+        "words": "UNTUK MAKAN SIANG MARI KITA COBA SUSHI TERKENAL DI TOKYO."
+    },
+    "Male 9-106.wav": {
+        "wav": "{data_root}/Audio/Male 9/106.wav",
+        "length": 6.954666666666666,
+        "words": "JIKA KITA KE THEME PARK INI PASTI AKAN ADA BANYAK WAHANA YANG EXICITING UNTUK DICOBA."
+    },
+    "Male 9-107.wav": {
+        "wav": "{data_root}/Audio/Male 9/107.wav",
+        "length": 6.528,
+        "words": "TADI KITA NGE-BOOK ONLINE JADI SEKARANG KITA TINGGAL TUNJUKIN QR CODE PAS MASUK."
+    },
+    "Male 9-108.wav": {
+        "wav": "{data_root}/Audio/Male 9/108.wav",
+        "length": 6.378666666666667,
+        "words": "KALAU KE PANTAI JANGAN LUPA BAWA SUNSCREEN YA BIAR KULIT KITA TIDAK KENA SUN BURN."
+    },
+    "Male 9-109.wav": {
+        "wav": "{data_root}/Audio/Male 9/109.wav",
+        "length": 5.76,
+        "words": "JADI MAU MAKAN SIANG APA STREET FOOD ATAU FAST FOOD"
+    },
+    "Male 9-110.wav": {
+        "wav": "{data_root}/Audio/Male 9/110.wav",
+        "length": 6.208,
+        "words": "AKU NGGAK BAWA KAMERA JADI AKU PAKAI HANDPHONE-KU SAJA UNTUK FOTO-FOTO."
+    },
+    "Male 9-111.wav": {
+        "wav": "{data_root}/Audio/Male 9/111.wav",
+        "length": 3.2853333333333334,
+        "words": "HANDPHONE-KU SUDAH LOW BAT."
+    },
+    "Male 9-112.wav": {
+        "wav": "{data_root}/Audio/Male 9/112.wav",
+        "length": 4.053333333333334,
+        "words": "MENURUT MAPS HOTELNYA SUDAH CUKUP DEKAT."
+    },
+    "Male 9-113.wav": {
+        "wav": "{data_root}/Audio/Male 9/113.wav",
+        "length": 4.608,
+        "words": "KALAU SUDAH SAMPAI KITA CHECK IN DULU"
+    },
+    "Male 9-114.wav": {
+        "wav": "{data_root}/Audio/Male 9/114.wav",
+        "length": 5.546666666666667,
+        "words": "BESOK KITA PULANG YA BUDGET-NYA GAK CUKUP KALAU MAU JALAN-JALAN LAGI."
+    },
+    "Male 9-115.wav": {
+        "wav": "{data_root}/Audio/Male 9/115.wav",
+        "length": 4.224,
+        "words": "KITA AKAN NAIK PESAWAT DARI GATE SATU."
+    },
+    "Male 9-116.wav": {
+        "wav": "{data_root}/Audio/Male 9/116.wav",
+        "length": 4.48,
+        "words": "HANDPHONE-KU NGE-HANG AKU COBA RESTART DULU YA."
+    },
+    "Male 9-117.wav": {
+        "wav": "{data_root}/Audio/Male 9/117.wav",
+        "length": 3.328,
+        "words": "SORRY AKU TADI NYASAR."
+    },
+    "Male 9-118.wav": {
+        "wav": "{data_root}/Audio/Male 9/118.wav",
+        "length": 3.7546666666666666,
+        "words": "MINGGU DEPAN KITA PARAGLIDING YUK"
+    },
+    "Male 9-119.wav": {
+        "wav": "{data_root}/Audio/Male 9/119.wav",
+        "length": 4.16,
+        "words": "PUNTEUN PASSWORD WIFI-NYA APA YA"
+    },
+    "Male 9-120.wav": {
+        "wav": "{data_root}/Audio/Male 9/120.wav",
+        "length": 4.053333333333334,
+        "words": "AKU SUDAH BOOKING HOTEL UNTUK SATU MALAM"
+    },
+    "Male 9-121.wav": {
+        "wav": "{data_root}/Audio/Male 9/121.wav",
+        "length": 3.8613333333333335,
+        "words": "MINUMNYA ICED TEA AJA YA BIAR MURAH"
+    },
+    "Male 9-122.wav": {
+        "wav": "{data_root}/Audio/Male 9/122.wav",
+        "length": 3.776,
+        "words": "INI MINUMANNYA FREE REFILL NGGA YA"
+    },
+    "Male 9-123.wav": {
+        "wav": "{data_root}/Audio/Male 9/123.wav",
+        "length": 4.736,
+        "words": "KAMU UDAH COBA RESTORAN ALL YOU CAN EAT YANG BARU ITU BELOM"
+    },
+    "Male 9-124.wav": {
+        "wav": "{data_root}/Audio/Male 9/124.wav",
+        "length": 5.290666666666667,
+        "words": "LEBIH FRESH LEBIH PLONG RASANYA ENAK BANGET"
+    },
+    "Male 9-125.wav": {
+        "wav": "{data_root}/Audio/Male 9/125.wav",
+        "length": 4.010666666666666,
+        "words": "BATAS CHECKOUT DARI HOTEL INI JAM BERAPA YA"
+    },
+    "Male 9-126.wav": {
+        "wav": "{data_root}/Audio/Male 9/126.wav",
+        "length": 3.8826666666666667,
+        "words": "NIGHT RIDE KAYAKNYA ASIK NIH"
+    },
+    "Male 9-127.wav": {
+        "wav": "{data_root}/Audio/Male 9/127.wav",
+        "length": 5.717333333333333,
+        "words": "BELI TIKET FAST TRACK AJA BIAR GAPERLU NGANTRI LAMA"
+    },
+    "Male 9-128.wav": {
+        "wav": "{data_root}/Audio/Male 9/128.wav",
+        "length": 4.544,
+        "words": "JANGAN KELAMAAN NANTI NGGA DAPET SUNRISE LOH"
+    },
+    "Male 9-129.wav": {
+        "wav": "{data_root}/Audio/Male 9/129.wav",
+        "length": 4.117333333333334,
+        "words": "NONTON SUNSET DI PINGGIR PANTAI YUK"
+    },
+    "Male 9-130.wav": {
+        "wav": "{data_root}/Audio/Male 9/130.wav",
+        "length": 4.586666666666667,
+        "words": "WAH UDAH MEPET BANGET NIH NEXT TIME AJA YA"
+    },
+    "Male 9-81.wav": {
+        "wav": "{data_root}/Audio/Male 9/81.wav",
+        "length": 3.3706666666666667,
+        "words": "RECOMMENDED BANGET UNTUK LIBURAN KELUARGA"
+    },
+    "Male 9-82.wav": {
+        "wav": "{data_root}/Audio/Male 9/82.wav",
+        "length": 4.2026666666666666,
+        "words": "SUNGGUH PENGALAMAN HIKING YANG UNFORGETTABLE"
+    },
+    "Male 9-83.wav": {
+        "wav": "{data_root}/Audio/Male 9/83.wav",
+        "length": 6.357333333333333,
+        "words": "LIBURAN KALI INI BENAR BENAR AMAZING SERU BANGET TRAVELING DENGAN TEMAN TEMAN"
+    },
+    "Male 9-84.wav": {
+        "wav": "{data_root}/Audio/Male 9/84.wav",
+        "length": 6.229333333333333,
+        "words": "SANGAT MEMUASKAN BERKELILING DI KOTA INI ORANG ORANGNYA HUMBLE DAN FRIENDLY BANGET."
+    },
+    "Male 9-85.wav": {
+        "wav": "{data_root}/Audio/Male 9/85.wav",
+        "length": 5.077333333333334,
+        "words": "JALAN JALAN PAGI DI PANTAI INI SO REFRESHING"
+    },
+    "Male 9-86.wav": {
+        "wav": "{data_root}/Audio/Male 9/86.wav",
+        "length": 4.757333333333333,
+        "words": "LIBURAN KE RUMAH NENEK TAHUN INI BENAR BENAR MEMORABLE"
+    },
+    "Male 9-87.wav": {
+        "wav": "{data_root}/Audio/Male 9/87.wav",
+        "length": 6.037333333333334,
+        "words": "TODAY SAYA MENCOBA SURFING UNTUK PERTAMA KALI SERU BANGET"
+    },
+    "Male 9-88.wav": {
+        "wav": "{data_root}/Audio/Male 9/88.wav",
+        "length": 5.525333333333333,
+        "words": "PENGALAMAN YANG BAD BANGET LIBURAN KALI INI BENER BENER FAIL"
+    },
+    "Male 9-89.wav": {
+        "wav": "{data_root}/Audio/Male 9/89.wav",
+        "length": 5.824,
+        "words": "ASIK BANGET KETEMU MY COUSINS SAMBIL MENIKMATI INDAHNYA KOTA"
+    },
+    "Male 9-90.wav": {
+        "wav": "{data_root}/Audio/Male 9/90.wav",
+        "length": 5.653333333333333,
+        "words": "CAFE DI PINGGIR JALAN ITU BENER BENER DISAPPOINTING GAK RECOMMENDED BANGET"
+    },
+    "Male 9-91.wav": {
+        "wav": "{data_root}/Audio/Male 9/91.wav",
+        "length": 6.698666666666667,
+        "words": "NANTI MALAM KITA BISA KE ROOFTOP BAR YANG ADA DI PUSAT KOTA KATANYA VIEW-NYA SPEKTAKULER"
+    },
+    "Male 9-92.wav": {
+        "wav": "{data_root}/Audio/Male 9/92.wav",
+        "length": 6.8053333333333335,
+        "words": "KITA BISA COBA ACTIVITIES WATER SPORTS DI PANTAI SINI BESOK KAYAKNYA ASYIK DEH"
+    },
+    "Male 9-93.wav": {
+        "wav": "{data_root}/Audio/Male 9/93.wav",
+        "length": 7.082666666666666,
+        "words": "KEMARIN KAMI KE PASAR LOKAL DAN BELI FRESH FRUITS UNTUK MASAK DI VILLA"
+    },
+    "Male 9-94.wav": {
+        "wav": "{data_root}/Audio/Male 9/94.wav",
+        "length": 6.8053333333333335,
+        "words": "LIBURAN INI KITA HARUS TAKE TIME UNTUK MENGUNJUNGI THE FAMOUS TAMAN SAFARI DI SINI."
+    },
+    "Male 9-95.wav": {
+        "wav": "{data_root}/Audio/Male 9/95.wav",
+        "length": 5.205333333333333,
+        "words": "LET'S PLAN OUR NEXT TRIP KE KOTA SEBELAH"
+    },
+    "Male 9-96.wav": {
+        "wav": "{data_root}/Audio/Male 9/96.wav",
+        "length": 6.037333333333334,
+        "words": "JANGAN LUPA MENCOBA LOCAL DELICACIES YANG TERKENAL SAAT KITA TRAVEL KE SANA"
+    },
+    "Male 9-97.wav": {
+        "wav": "{data_root}/Audio/Male 9/97.wav",
+        "length": 5.269333333333333,
+        "words": "AYO PERGI KE CITY CENTER UNTUK SHOPPING SPREE"
+    },
+    "Male 9-98.wav": {
+        "wav": "{data_root}/Audio/Male 9/98.wav",
+        "length": 4.309333333333333,
+        "words": "LET'S GO KE BEACH RESORT INI GUYS"
+    },
+    "Male 9-99.wav": {
+        "wav": "{data_root}/Audio/Male 9/99.wav",
+        "length": 5.1626666666666665,
+        "words": "AYO KE HISTORICAL LANDMARKS DI KOTA INI."
+    }
+}
