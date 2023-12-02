@@ -1,0 +1,8 @@
+LibriSpeech/
+RIRS_NOISES/
+rirs_noises.zip
+test-clean.tar.gz
+train-clean-5.tar.gz
+noise.csv
+reverb.csv
+dev-clean-2.tar.gz

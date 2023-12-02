@@ -1,0 +1,119 @@
+# Seed needs to be set at top of yaml, before objects with parameters are made
+seed: 1111
+__set_seed: !apply:torch.manual_seed [!ref <seed>]
+
+# Data Folder
+data_folder: "../data"
+data_folder_rirs: !ref <data_folder> # noise/ris dataset will automatically be downloaded here
+output_folder: !ref results/CRDNN_BPE_960h_LM/<seed>
+test_wer_file: !ref <output_folder>/wer_test.txt
+save_folder: !ref <output_folder>/save
+train_log: !ref <output_folder>/train_log.txt
+# The train logger writes training statistics to a file, as well as stdout.
+train_logger: !new:speechbrain.utils.train_logger.FileTrainLogger
+  save_file: !ref <train_log>
+
+# Path where data manifest files will be stored. The data manifest files are created by the
+# data preparation script
+# train_annotation: ../train.json
+# valid_annotation: ../valid.json
+# test_annotation: ../test.json
+# train_annotation: ../train-libri.json
+# valid_annotation: ../valid-libri.json
+# test_annotation: ../test-libri.json
+train_annotation: ../train-tubes.json
+valid_annotation: ../valid-tubes.json
+test_annotation: ../test-tubes.json
+
+# Training params
+N_epochs: 1
+lr: 0.001
+dataloader_options:
+  batch_size: 1
+
+# Labels
+num_labels: 814 # 43 phonemes, no blank
+
+# Model parameters
+activation: !name:torch.nn.LeakyReLU
+dropout: 0.15
+cnn_blocks: 1
+cnn_channels: (16,)
+cnn_kernelsize: (3, 3)
+rnn_layers: 1
+rnn_neurons: 128
+rnn_bidirectional: True
+dnn_blocks: 1
+dnn_neurons: 128
+blank_index: 0
+bos_index: 0
+eos_index: 0
+
+compute_features: !new:speechbrain.lobes.features.MFCC
+
+mean_var_norm: !new:speechbrain.processing.features.InputNormalization
+  norm_type: global
+
+model: !new:speechbrain.lobes.models.CRDNN.CRDNN
+  input_shape: [null, null, 660]
+  activation: !ref <activation>
+  dropout: !ref <dropout>
+  cnn_blocks: !ref <cnn_blocks>
+  cnn_channels: !ref <cnn_channels>
+  cnn_kernelsize: !ref <cnn_kernelsize>
+  time_pooling: False
+  rnn_layers: !ref <rnn_layers>
+  rnn_neurons: !ref <rnn_neurons>
+  rnn_bidirectional: !ref <rnn_bidirectional>
+  dnn_blocks: !ref <dnn_blocks>
+  dnn_neurons: !ref <dnn_neurons>
+
+lin: !new:speechbrain.nnet.linear.Linear
+  input_size: !ref <dnn_neurons>
+  n_neurons: !ref <num_labels>
+  bias: False
+
+modules:
+  compute_features: !ref <compute_features>
+  model: !ref <model>
+  lin: !ref <lin>
+  mean_var_norm: !ref <mean_var_norm>
+
+opt_class: !name:torch.optim.Adam
+  lr: !ref <lr>
+
+softmax: !new:speechbrain.nnet.activations.Softmax
+  apply_log: True
+
+aligner: !new:speechbrain.alignment.aligner.HMMAligner
+
+compute_cost: !name:speechbrain.nnet.losses.nll_loss 
+
+# Tokenizer initialization
+tokenizer: !new:sentencepiece.SentencePieceProcessor
+  # Objects in "modules" dict will have their parameters moved to the correct
+  # device, as well as having train()/eval() called on them by the Brain class
+
+# This object is used for saving the state of training both so that it
+# can be resumed if it gets interrupted, and also so that the best checkpoint
+# can be later loaded for evaluation or inference.
+checkpointer: !new:speechbrain.utils.checkpoints.Checkpointer
+  checkpoints_dir: !ref <save_folder>
+  recoverables:
+    model: !ref <model>
+    scheduler: !ref <lr_annealing>
+    normalizer: !ref <normalize>
+    counter: !ref <epoch_counter>
+
+
+pretrained_path: ../models
+
+pretrainer: !new:speechbrain.utils.parameter_transfer.Pretrainer
+  collect_in: !ref <save_folder>
+  loadables:
+    tokenizer: !ref <tokenizer>
+  paths:
+    tokenizer: !ref <pretrained_path>/tokenizer.ckpt
+
+# accuracy_stats: !name:speechbrain.utils.metric_stats.MetricStats
+#   metric: !ref <aligner.calc_accuracy>
