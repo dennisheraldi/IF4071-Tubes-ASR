@@ -39,9 +39,9 @@ train_log: !ref <output_folder>/train_log.txt
 
 # Path where data manifest files will be stored. The data manifest files are created by the
 # data preparation script
-train_annotation: ../train.json
-valid_annotation: ../valid.json
-test_annotation: ../test.json
+train_annotation: ../train-tubes.json
+valid_annotation: ../valid-tubes.json
+test_annotation: ../test-tubes.json
 # train_annotation: ../train-libri.json
 # valid_annotation: ../valid-libri.json
 # test_annotation: ../test-libri.json
@@ -331,6 +331,6 @@ pretrainer: !new:speechbrain.utils.parameter_transfer.Pretrainer
         tokenizer: !ref <tokenizer>
         # model: !ref <model>
     paths:
-        lm: ../LM/results/lm_kelas.ckpt
+        lm: ../LM/lm_kelas.ckpt
         tokenizer: ../Tokenizer/save/814_unigram.model
         # model: !ref <pretrained_path>/asr.ckpt
