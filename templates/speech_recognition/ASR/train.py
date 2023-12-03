@@ -218,6 +218,12 @@ class ASR(sb.Brain):
             ]
             target_words = [words.split(" ") for words in batch.words]
 
+            # Print predicted and target words in terminal
+            print("Predicted words: ")
+            print(predicted_words)
+            print("Target words: ")
+            print(target_words)
+
             # Monitor word error rate and character error rated at
             # valid and test time.
             self.wer_metric.append(batch.id, predicted_words, target_words)
@@ -319,7 +325,9 @@ def dataio_prepare(hparams):
     @sb.utils.data_pipeline.provides("sig")
     def audio_pipeline(wav):
         """Load the audio signal. This is done on the CPU in the `collate_fn`."""
+        normalizer = sb.dataio.preprocess.AudioNormalizer(sample_rate=16000, mix='avg-to-mono')
         sig = sb.dataio.dataio.read_audio(wav)
+        sig = normalizer(sig, sample_rate=16000)
         return sig
 
     # Define text processing pipeline. We start from the raw text and then
@@ -410,18 +418,6 @@ if __name__ == "__main__":
         hyperparams_to_save=hparams_file,
         overrides=overrides,
     )
-
-    # Data preparation, to be run on only one process.
-    if not hparams["skip_prep"]:
-        sb.utils.distributed.run_on_main(
-            prepare_mini_librispeech,
-            kwargs={
-                "data_folder": hparams["data_folder"],
-                "save_json_train": hparams["train_annotation"],
-                "save_json_valid": hparams["valid_annotation"],
-                "save_json_test": hparams["test_annotation"],
-            },
-        )
 
     # We can now directly create the datasets for training, valid, and test
     datasets = dataio_prepare(hparams)
