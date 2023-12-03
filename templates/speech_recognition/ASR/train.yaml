@@ -90,7 +90,7 @@ rnn_neurons: 1024
 rnn_bidirectional: True
 dnn_blocks: 2
 dnn_neurons: 512
-emb_size: 128
+emb_size: 256
 dec_neurons: 1024
 output_neurons: 1000 # Number of tokens (same as LM)
 blank_index: 0
